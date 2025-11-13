@@ -1,0 +1,37 @@
+{
+  "name": "cookie-heaven-digital-menu",
+  "version": "1.0.0",
+  "description": "Cardápio digital moderno para loja de cookies artesanais",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html --watch=css,js",
+    "build": "echo 'Build completed - projeto pronto para produção'",
+    "preview": "live-server --port=8080 --open=/index.html"
+  },
+  "keywords": [
+    "cardapio",
+    "digital",
+    "menu",
+    "cookies",
+    "restaurant",
+    "food",
+    "html5",
+    "css3",
+    "javascript",
+    "responsive"
+  ],
+  "author": "Cookie Heaven",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cookieheaven/digital-menu.git"
+  },
+  "homepage": "https://cookieheaven.github.io/digital-menu",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
